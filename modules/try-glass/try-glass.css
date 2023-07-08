@@ -1,0 +1,48 @@
+.background{
+    background-image: url(../../public/images/background.jpg);
+    background-repeat: none;
+    background-size: cover;
+    backdrop-filter: .5;
+}
+header h1{
+    text-align: center;
+    background-color: #3f3f3f38;
+    margin-top: 0;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+.content .contentImg{
+    position: relative;
+}
+.contentImg img{
+    width: 100%;
+}
+.imageTitle{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+.imageTitle p{
+    margin-bottom: 0;
+}
+.glasser{
+    background-color: white;
+}
+.glassImg{
+    border: 1px solid black;
+    margin: 5px;
+}
+.glassImg .imgItem{
+    width: 100%;
+}
+.bgGlass{
+    position: absolute;
+    width: 50%;
+    top: 145px;
+    left: 121px;
+}
